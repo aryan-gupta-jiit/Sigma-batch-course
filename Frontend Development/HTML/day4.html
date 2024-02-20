@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day4</title>
+</head>
+
+<body>
+    <!-- HTML tables -->
+
+    <!-- tables are used to represent real life table data -->
+
+    <table>
+        <!-- used to display table name -->
+        <caption>Food Menu</caption>
+
+        <!-- used to display table row -->
+        <thead>
+            <tr>
+                <!-- used to display table heading -->
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            <tr>
+                <th>ind</th>
+                <th>doll</th>
+            </tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- used to display table data -->
+                <td>Frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+
+            <tr>
+                <td>Samosa</td>
+                <td>12</td>
+                <td>0.17</td>
+            </tr>
+            <tr>
+                <td>Chips</td>
+                <td>20</td>
+                <td>0.28</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- colspan & rowapan -> used to create cell which spans over multiple rows or columns -->
+
+    <hr>
+
+    <!-- Practise question-7 -->
+
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+
+                <th rowspan="2">Red eyes</th>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <br>
+    <br>
+
+
+    <!-- Forms -->
+
+    <form action="/action">
+        <!-- Action attribuute -> used to define what action needs to be performed when a form is submitted or where the form data should be sent -->
+
+        <!-- input element -> used to create multiple form controls -->
+        <label for="username">username:</label>
+        <!-- label element represents a caption for an item in a user interface -->
+        <input id="username" type="text" placeholder="enter name" />
+
+        <br>
+        <br>
+        password:
+        <input type="password">
+        <br>
+        <br>
+        phone_number:
+        <input type="number">
+        <br>
+        <br>
+        <input type="email">
+        <input type="time">
+
+        <button>Submit</button>
+    </form>
+
+
+
+
+</body>
+
+</html>
