@@ -1,1 +1,5 @@
+selectors in css
+    used to select elements from html
 
+universal selectors
+    to select everything in a document
