@@ -1,0 +1,91 @@
+body{
+    background-color:rgb(172, 172, 255) ;
+}
+
+/* color property */
+
+/* used to set the color of foreground */
+
+    /* h1{
+        color: blue;
+    }
+
+    p{
+        color: red;
+    }
+
+    button{
+        color: gold;
+    } */
+
+/* background colour property */
+
+    /* h1{
+        background-color: grey;
+    }
+
+    p{
+        background-color: cornsilk;
+    }
+
+    button{
+        background: black;
+    } */
+
+/* Practise problem */
+
+    /* h2{
+        color: gold;
+    }
+
+    button{
+        background-color: blue;
+        color: aliceblue;
+    } */
+
+/* color systems */
+
+/* -> Color names
+-> RGB ( 0-255 )
+-> Hex Code ( hexadecimal) start with hashtag
+
+*/
+
+/* text-properties */
+
+    /* text-align
+    font-weight
+    text-decoration
+    line-height
+    letter-spacing
+    font-size */
+
+h2{
+    text-align: center;
+    /* width: 50%; */
+}
+
+/* line height and letter spacing */
+
+/* font-size */
+
+/* absolute
+
+px -> not suitable for responsive website
+pt
+pc
+cm
+mm
+in */
+
+/* relative->
+
+%
+em
+rem 
+ch 
+vh 
+vw  */
+
+/* font-family */
+
