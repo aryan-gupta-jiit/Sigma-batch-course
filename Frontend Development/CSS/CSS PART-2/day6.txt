@@ -3,3 +3,42 @@ selectors in css
 
 universal selectors
     to select everything in a document
+
+element selector
+    select all element of same type
+
+id selector
+    select an element based on the value of the elements id attribute
+
+class selector
+    select an element based on their class attributes
+
+descendent selector
+    eg-> selects all the paragraphs inside divs
+        div p{
+            property:value
+        }
+
+adjacent sibling combinator
+    eg-> heading that comes immediately after any paragraph
+        p+h3{
+            property:value;
+        }
+child combinator    
+    eg-> selects all buttons which are direct children of spans
+        span>button{
+            property:value;
+        }
+
+attribute selectors
+    selects elementsbased on the presence or value of a given attribute
+        input[attr="value]{
+            property:value;
+        }
+
+pseudo class    
+    A keyword addedto a selector that specify a special state of the selected elements
+        eg-> :hover
+             :active
+             :checked
+             :nth-of-type
