@@ -1,0 +1,90 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    color: purple;
+}
+
+h1,h3{
+    color: #b92b7b;
+}
+
+/* id selector */
+
+#login{
+    background-color: aliceblue;
+}
+#signup{
+    background-color: #b92b7b;
+    color: aliceblue;
+}
+
+/* class selector */
+
+.upvote{
+    background-color: green;
+}
+
+/* descendent selector */
+
+p a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li{
+    color: #b92b7b;
+}
+nav ul li a{
+    color: pink;
+}
+
+/* adjacent sibling combinator */
+
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote+button{
+    background-color: floralwhite;
+}
+
+/* child combinator */
+
+div>input{
+    background-color: darksalmon;
+}
+
+/* attribute selector */
+
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+
+/* pseudo class */
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: hotpink;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bolder;
+}
+
+div:nth-of-type(even){
+    background-color: rgb(174, 255, 255);
+}
+
+h1::first-letter{
+    color: green;
+}
