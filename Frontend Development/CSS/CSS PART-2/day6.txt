@@ -42,3 +42,17 @@ pseudo class
              :active
              :checked
              :nth-of-type
+
+pseudo element
+    A keyword added to a selector that lets you style a specifuc part of the selected elements
+        -> ::first-letter
+           ::first-line
+           ::selection
+
+Cascading Stylesheets
+    The Css cascade algorithm's job is to seek css declaration in order to determine the correct values for css properties
+
+Selector Specifity
+    Specifity is an algorithm that calculate the weight that is applied to a given css declaration
+
+Inheritance
