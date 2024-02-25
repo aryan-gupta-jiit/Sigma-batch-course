@@ -1,1 +1,89 @@
+Box model in css
+    height
+    width
+    border
+    padding
+    margin
+
+height
+    by deafult,it sets the content height of the element
+
+    syntax:
+    
+        div{
+            height:100px;
+        }
+
+width
+    by deafult,it sets the content area width of the element
+
+    syntax:
+
+        div{
+            width:100px;
+        }
+
+border
+    used to set an elements border
+
+    border-width
+    border-style
+    border-color
+
+    Border sides
+        to control individual side of the Box
+
+        border-left
+        border-right
+        border-top
+        border-bottom
+
+    Border Radius
+        Used to round the corners of an element's outer border edge
+
+        syntax:
+
+            div{
+                border-radius:15px;
+            }
+
+padding
+    distance between border and content
+
+    padding-left
+    padding-right
+    padding-top
+    padding-bottom
+
+    syntax:
+
+            div{
+                padding-left:15px;
+            }
+
+    padding shorthand
+        #1 for all 4 sides
+            padding:50px
+
+        #2 top & bottom | left & right
+            padding:1px 2px;
+
+        #3 top | left & right | bottom
+            padding:1px 2px 3px;
+
+        #4 top | right | bottom | left  clockwise direction 
+            padding:1px 2px 3px 4px;
+
+margin
+    to set spacing on the outside of border
+
+    margin-left
+    margin-right
+    margin-top
+    margin-bottom
+
+        
+
+
+
 
