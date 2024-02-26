@@ -1,0 +1,27 @@
+.box{
+    border: 10px double black;
+    height: 250px;
+    width: 100px;
+}
+
+.red,.yellow,.green{
+    border: 2px solid black;
+    height: 5px;
+    width: 5px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
