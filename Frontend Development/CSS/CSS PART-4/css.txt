@@ -1,1 +1,22 @@
+Alpha Channel 
+    sets the opacity for a color
+    Ranges from 0 to 1
+    eg:
+        rgba(255,255,255,0.3)
 
+opacity
+    Sets the opacity of the element
+    Ranges from 0 to 1
+    eg:     
+        opacity:0.5
+
+css transition
+    transitions enable you to define the transition between two states of an element
+    transition-shorthand -> 
+        property name | duration | timinng-function | delay
+
+css transform 
+    This property lets you rotate,scale,skew,or translate an element
+        
+        (i) rotate
+                transform:rotate(45deg);
