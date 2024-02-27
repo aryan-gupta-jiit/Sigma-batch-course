@@ -20,3 +20,14 @@ css transform
         
         (i) rotate
                 transform:rotate(45deg);
+
+        (ii) scale
+                transform:scale(0.5);
+
+        (iii) translate
+                transform:translate(50px,50px);
+                transform:translateX(50px);
+                transform:translateY(50px);
+
+        (iv) skew
+                transform:skew(30deg);
