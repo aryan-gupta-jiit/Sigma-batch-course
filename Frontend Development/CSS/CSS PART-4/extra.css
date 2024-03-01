@@ -1,0 +1,19 @@
+/* div{
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-image: url("../images/ironman.jpg") ;
+    background-size: cover;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
