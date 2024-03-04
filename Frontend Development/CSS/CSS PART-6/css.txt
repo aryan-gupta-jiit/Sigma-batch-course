@@ -48,3 +48,55 @@ Grid
 
         place-items
         place-self
+animation
+    to animate css elements 
+        
+        @keyframe myname{
+            from{font-size:20px}
+            to{font-size:40px}
+        }
+
+    Animation properties
+        animation-name
+        animation-duration
+        animation-timing-function
+        animation-delay
+        animation-iteration-count
+        animation-direction
+
+    animation shorthand
+        animation: name | duration | timing-function | delay |iteration-count | direction
+
+    % animation
+        @keyframe myName{
+            0%{font-size:20px;}
+            50%{font-size:30px;}
+            100%{font-size:40px;}
+        }
+
+Media Queries
+    Help create a responsive website
+
+    media features - width(of viewport)
+        
+        @media(width:400px){
+            div{
+                background-color:red;
+            }
+        }
+
+    media query ( orientation )
+
+        @media(orientation:landscape){
+            div{
+                background-color:red;
+            }
+        }
+
+Z-index
+    It decides the stack level of elements
+    Overlapping elements with a larger z-index cover those with a smaller one 
+        z-index:auto(0)
+        z-index:1/2/..
+        z-index:-1/-2/...
+        
