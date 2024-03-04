@@ -1,1 +1,50 @@
+Grid
+    settig a container's display to grid will make all children grid items
 
+    syntax:
+        container{
+            display:grid;
+        }
+
+    grid model
+        grid lines
+        grid cell
+        grid track
+
+    grid template
+        they define the lines & track sizing
+            grid-template-rows:
+            grid-template-columns:
+
+    grid template(repeat)
+        repeat is used to divide all available space
+            grid-template-rows:repeat(count,1fr)
+            grid-template-columns:repeat(count,1fr)
+
+    grid gaps
+        they define the gaps between the lines
+            row-gaps
+            column-gaps
+            grid-gaps
+
+    grid coluumns
+        define an items starting & ending position inside the column
+
+        grid-column-start:line_number
+        grid-column-end:line_number
+
+    grid rows
+        define an items starting & ending position inside the row
+
+        grid-row-start:line_number
+        grid-row-end:line_number
+
+    grid properties
+        justify-items(container)  // horizontal
+        justify-self(item)
+
+        align-items(container) // vertical
+        align-self(item)
+
+        place-items
+        place-self
